@@ -3,7 +3,7 @@ import pickle
 
 import streamlit as st
 from PyPDF2 import PdfReader
-from langchain import OpenAI.("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")
+from langchain import OpenAI
 from langchain.callbacks import get_openai_callback
 from langchain.chains import llm
 from langchain.chains.question_answering import load_qa_chain
@@ -11,6 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.llms import openai
+openai.api("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")
 
 with st.sidebar:
     st.title ('Build your own ChatBot')
