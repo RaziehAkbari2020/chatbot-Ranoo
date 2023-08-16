@@ -10,7 +10,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.llms import openai
 openai.api("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")
 
 with st.sidebar:
