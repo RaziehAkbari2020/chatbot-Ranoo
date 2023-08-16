@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.vectorstores import FAISS
-openai.api("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")
+
 
 
 
